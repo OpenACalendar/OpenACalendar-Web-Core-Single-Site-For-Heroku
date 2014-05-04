@@ -21,7 +21,7 @@ if (!$_ENV['ADMIN_PASSWORD']) {
 print "<p>Starting Cron</p>";
 
 require 'localConfig.php';
-require_once APP_ROOT_DIR.'/vendor/autoload.php'; 
+require_once COMPOSER_ROOT_DIR.'/vendor/autoload.php'; 
 require_once APP_ROOT_DIR.'/core/php/autoload.php';
 require_once APP_ROOT_DIR.'/core/php/autoloadWebApp.php';
 
